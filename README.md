@@ -1,1 +1,1 @@
-# EVPP
+# Efficient View Path Planning for Autonomous Implicit Reconstruction
