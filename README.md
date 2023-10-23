@@ -39,6 +39,21 @@ The main entrances are `nerfServer_VPP`  and `planServre_.VPP` .
 
 `planServre_.VPP` defines the view path planning.
 
+## RUN
+
+Follow the steps below to start autonomous implicit reconstruction:
+
+1. Run Unity Project
+
+After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor.
+
+2. Train an NGP/TensoRF model following the instructions of [torch-ngp#usage](https://github.com/ashawkey/torch-ngp#usage). For example:
+
+```bash
+# NGP backbone, Lego
+python main_nerf.py data/nerf_synthetic/lego/ --workspace exps/lego_ngp -O --bound 1.0 --scale 0.8 --dt_gamma 0
+```
+
 
 
 ## BibTeX
