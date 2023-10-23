@@ -660,7 +660,7 @@ class TSDF:
         # Get mesh from voxel volume and save to disk (can be viewed with Meshlab)
         print("Saving mesh to mesh.ply...")
         verts, faces, norms, colors, Nrays, verts_ind, nray_vol, state_vol = self.tsdf_vol.get_mesh()
-        fusion.meshwrite("../saved_model/nerf_vpp_"+ version +".ply", verts, faces, norms, colors)
+        fusion.meshwrite("saved_model/nerf_vpp_"+ version +".ply", verts, faces, norms, colors)
         
 
         ## 统计所有voxel的状态，及表面voxel的 Nray(其他voxel Nray=0),color
