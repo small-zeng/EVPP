@@ -31,6 +31,25 @@ conda activate EVPP
 
 
 
+## BibTeX
+
+```bibtex
+@inproceedings{zeng2023efficient,
+  title={Efficient view path planning for autonomous implicit reconstruction},
+  author={Zeng, Jing and Li, Yanxu and Ran, Yunlong and Li, Shuo and Gao, Fei and Li, Lincheng and He, Shibo and Chen, Jiming and Ye, Qi},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4063--4069},
+  year={2023},
+  organization={IEEE}
+}
+```
+
+## Acknowledgement
+
+Use this code under the MIT License. No warranties are provided. Keep the laws of your locality in mind!
+
+Please refer to [torch-ngp#acknowledgement](https://github.com/ashawkey/torch-ngp#acknowledgement) for the acknowledgment of the original repo.
+
 
 
 10.15.198.53:7100/isfinish/?finish=yes
