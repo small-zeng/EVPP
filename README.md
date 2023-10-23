@@ -45,7 +45,9 @@ Follow the steps below to start autonomous implicit reconstruction:
 
 1. Run Unity Project
 
-   After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor.
+``` 
+After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor.
+```
 
 2. Train an NGP/TensoRF model following the instructions of [torch-ngp#usage](https://github.com/ashawkey/torch-ngp#usage). For example:
 
