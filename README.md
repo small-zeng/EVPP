@@ -63,9 +63,11 @@ cd planServre_VPP
 python manage.py runserver 0.0.0.0:6100
 ```
 
-4. In a web browser, enter the link 10.15.198.53:5100/isfinish/?finish=yes to start the planner.
+4. In a web browser, start the planner by entering the link 
 
-
+```bash
+https://10.15.198.53:5100/isfinish/?finish=yes
+```
 
 
 ## BibTeX
