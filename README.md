@@ -31,8 +31,6 @@ conda activate EVPP
 
 ### Code Structure
 
-Based on the implementation of the repo, we slightly modified the files in `nerf` to fit our needs.
-
 The main entrances are `nerfServer_VPP`  and `planServre_VPP` .
 
 `nerfServer_VPP`  defines the online implicit reconstruction.
