@@ -8,7 +8,7 @@ from torch.functional import Tensor
 import time
 
 
-device = torch.device("cuda:4" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
 
 #### 请求视点延视线方向到无图的距离
 #### location nparray [x,y,z]
@@ -31,7 +31,7 @@ device = torch.device("cuda:4" if torch.cuda.is_available() else "cpu")
 def send_NBV(location,u,v):
     u = u/np.pi*180.
     v = v/np.pi*180.
-    response = requests.get("http://10.13.21.208:6200/", "x="+str(location[0])+"&y="+str(location[1])+"&z="+str(location[2])+"&u="+str(u)+"&v="+str(v))
+    response = requests.get("http://10.13.21.209:6200/", "x="+str(location[0])+"&y="+str(location[1])+"&z="+str(location[2])+"&u="+str(u)+"&v="+str(v))
     nbv = {"x":str(location[0]),"y":str(location[1]),str(location[2]):"0",str(u):"0","v":str(v)}
     #response = requests.post("http://10.15.196.86:9200/get_nbv/", data=json.dumps(nbv, ensure_ascii=False))
     return response.text
@@ -40,7 +40,7 @@ def send_NBV(location,u,v):
 def send_Path(path):
     data = {'path':path}
     headers = {'Content-Type': 'application/json'}
-    response = requests.post("http://10.13.21.208:7300/get_path/", headers= headers,data=json.dumps(data))
+    response = requests.post("http://10.13.21.209:7300/get_path/", headers= headers,data=json.dumps(data))
     return response.text
 
 def creat_window():

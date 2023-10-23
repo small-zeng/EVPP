@@ -25,7 +25,7 @@ print("采样包围盒；\n",vol_bnds)
 print("tsdf uncertainty包围盒: \n",aabb_bnds)
 
 
-device = torch.device("cuda:4" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
 H = 400; W =400;K =np.array([[300,0,200],[0,300,200],[0,0,1]])
 near = 0.5; far = 6.0
 voxel_res = 0.1

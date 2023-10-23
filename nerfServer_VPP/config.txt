@@ -1,4 +1,4 @@
-expname = unity_continue_depth_cabin_v25_132
+expname = unity_continue_depth_cabin_v23_132
 basedir = ./logs
 datadir = ../data/cabin2
 dataset_type = blender

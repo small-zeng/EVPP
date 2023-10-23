@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import numpy as np
 import os
 
-cuda_id = "cuda:5"
+cuda_id = "cuda:1"
 # Misc
 img2msepsnr = lambda x, y : torch.mean((x - y) ** 2)
 img2mse = lambda x, y : torch.sum((x - y) ** 2)

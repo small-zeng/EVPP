@@ -17,8 +17,8 @@ import requests
 import colorlog
 
 device = torch.device(cuda_id if torch.cuda.is_available() else "cpu")
-device2 = torch.device("cuda:7" if torch.cuda.is_available() else "cpu")
-version = '25_132'
+device2 = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
+version = '23_132'
     
 log_colors_config = {
     'DEBUG': 'white',  # cyan white
@@ -235,7 +235,7 @@ class Controller():
         #### new depth from Lidar and simulate z^2 relationship
         means = 1.23464888e-02 * (depth_img * self.far)**2 + 4.65098301e-02
         std = 1.22884446e-02 * (depth_img * self.far)**2 +1.57083689e-02
-        bias = torch.normal(mean = 0,std = std/12.0) /self.far / 1000
+        bias = torch.normal(mean = means,std = std) /self.far / 1000
         bias[depth_img==1] = 0
         bias = bias.to(device)
         depth_img = depth_img + bias
@@ -411,7 +411,7 @@ class Controller():
             #     self.info_planner()
             #     return
             # if self.i % 300 == 0 and self.i > 0 :
-            if (self.i % 400 == 0 and self.i > 0) or self.i == 10:
+            if (self.i % 700 == 0 and self.i > 0) or self.i == 10:
                 torch.cuda.empty_cache()
                 # threading.Thread(target=self.info_planner,args=()).start
                 self.info_planner()

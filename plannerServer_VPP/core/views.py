@@ -25,21 +25,6 @@ poses = []
 
 is_reconstruction_flag = False
 reconstruction_imgs_index = 5
-# for i in range(reconstruction_imgs_index):
-#     print("Fusing frame %d/%d"%(i, reconstruction_imgs_index))
-
-#     # Read RGB-D image and camera pose
-#     img = cv2.cvtColor(cv2.imread(os.path.join(log_base_dir,"main_{:03d}.png".format(i))), cv2.COLOR_BGR2RGB)[::2,::2]
-#     depth_img = cv2.imread(os.path.join(log_base_dir,"depth_{:03d}.png".format(i)),-1).astype(float)[::2,::2,0]
-#     pose = np.loadtxt(os.path.join(log_base_dir,"pose_{:03d}.csv".format(i)),delimiter = ',')
-#     imgs.append(img)
-#     depth_imgs.append(depth_img)
-#     poses.append(pose) 
-#     tsdf_reconstruction(img,depth_img,pose)
-# get_tsdf_model()
-# view = np.array([-2.0,1.0,-2.0,0,1.57/2])
-# uncer_all = get_all_uncertainty(view[0:3],view[3],view[4])
-# print("uncer_all ",uncer_all)
 
 
 #### 接受nerf更新模型完成信号，开始路径规划，规划完成后传递信息给render
