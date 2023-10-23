@@ -33,11 +33,11 @@ conda activate EVPP
 
 Based on the implementation of the repo, we slightly modified the files in `nerf` to fit our needs.
 
-The main entrances are `nerfServer_VPP`  and `planServre_.VPP` .
+The main entrances are `nerfServer_VPP`  and `planServre_VPP` .
 
 `nerfServer_VPP`  defines the online implicit reconstruction.
 
-`planServre_.VPP` defines the view path planning.
+`planServre_VPP` defines the view path planning.
 
 ## RUN
 
@@ -46,15 +46,25 @@ Follow the steps below to start autonomous implicit reconstruction:
 1. Run Unity Project
 
 ``` 
-After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor.
+After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor. (Start the childroom scene in default).
 ```
 
-2. Train an NGP/TensoRF model following the instructions of [torch-ngp#usage](https://github.com/ashawkey/torch-ngp#usage). For example:
+2. Open one terminal and start reconstruction service:
 
 ```bash
-# NGP backbone, Lego
-python main_nerf.py data/nerf_synthetic/lego/ --workspace exps/lego_ngp -O --bound 1.0 --scale 0.8 --dt_gamma 0
+cd nerfServer_VPP
+python manage.py runserver 0.0.0.0:6000
 ```
+
+3. Open another terminal and start planner service:
+
+```bash
+cd planServre_VPP
+python manage.py runserver 0.0.0.0:6100
+```
+
+4. In a web browser, enter the link 10.15.198.53:5100/isfinish/?finish=yes to start the planner.
+
 
 
 
