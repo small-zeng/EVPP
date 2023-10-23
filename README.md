@@ -89,6 +89,3 @@ Use this code under the MIT License. No warranties are provided. Keep the laws o
 
 Please refer to [torch-ngp#acknowledgement](https://github.com/ashawkey/torch-ngp#acknowledgement) for the acknowledgment of the original repo.
 
-
-
-10.15.198.53:7100/isfinish/?finish=yes
