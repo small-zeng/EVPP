@@ -15,4 +15,22 @@ This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-
 ## Unity Project
 百度云盘 https://pan.baidu.com/s/12lXVDL-f1cGk8O9LpVAzXA?pwd=j5ey
 
+## Installation
+
+```bash
+git clone https://github.com/small-zeng/EVPP.git
+cd EVPP
+```
+
+### Install with conda
+
+```bash
+conda env create -f environment.yml
+conda activate EVPP
+```
+
+
+
+
+
 10.15.198.53:7100/isfinish/?finish=yes
