@@ -6,15 +6,13 @@ Accepted by ICRA 2023.
 
 Project Page: https://small-zeng.github.io/EVPP/
 
-ArXiv Link: https://arxiv.org/abs/2307.15131
+Paper Link: https://ieeexplore.ieee.org/abstract/document/10160793
 
-ArXiv PDF: https://arxiv.org/pdf/2307.15131
-
-GitHub Repo: https://github.com/windingwind/seal-3d
+GitHub Repo: https://github.com/small-zeng/EVPP
 
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
 ## Unity Project
-百度云盘https://pan.baidu.com/s/12lXVDL-f1cGk8O9LpVAzXA?pwd=j5ey
+百度云盘 https://pan.baidu.com/s/12lXVDL-f1cGk8O9LpVAzXA?pwd=j5ey
 
 10.15.198.53:7100/isfinish/?finish=yes
