@@ -29,6 +29,16 @@ conda env create -f environment.yml
 conda activate EVPP
 ```
 
+### Code Structure
+
+Based on the implementation of the repo, we slightly modified the files in `nerf` to fit our needs.
+
+The main entrances are `nerfServer_VPP` (NGP backbone) and `planServre_.VPP` (TensoRF backbone).
+
+`nerfServer_VPP`  defines the online implicit reconstruction
+
+`planServre_.VPP` defines the view path planning.
+
 
 
 ## BibTeX
