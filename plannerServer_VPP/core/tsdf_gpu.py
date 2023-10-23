@@ -15,7 +15,9 @@ from scipy.spatial import ConvexHull
 import copy
 import core.fusion as fusion
 
-
+if not os.path.exists("saved_model"):
+    os.mkdir("saved_model")
+    
 ## room
 version = 'v23_132'
 vol_bnds = np.array([[-4.0,3.5],[-0.5,4.5],[-3.5,4.0]])        ## 采样包围盒
