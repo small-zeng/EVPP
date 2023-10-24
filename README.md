@@ -64,7 +64,7 @@ python manage.py runserver 0.0.0.0:6100
 4. In a web browser, start the planner by entering the link 
 
 ```bash
-https://10.15.198.53:5100/isfinish/?finish=yes
+https://10.15.198.53:6100/isfinish/?finish=yes
 ```
 
 
