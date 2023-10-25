@@ -35,11 +35,11 @@ conda activate EVPP
 
 ### Code Structure
 
-The main entrances are `nerfServer_VPP`  and `planServre_VPP` .
+The main entrances are `nerfServer`  and `planServre_Object / planServre_Room` .
 
 `nerfServer_VPP`  defines the online implicit reconstruction.
 
-`planServre_VPP` defines the view path planning.
+`planServre_Object / planServre_Room` defines the view path planning.
 
 ## RUN
 
@@ -48,20 +48,20 @@ Follow the steps below to start autonomous implicit reconstruction:
 1. Run Unity Project
 
 ``` 
-After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor. (Start the childroom scene in default).
+After install Unity Editor and Visual Studio, you can start it by click `RUN` button in Unity Editor.
 ```
 
 2. Open one terminal and start reconstruction service:
 
 ```bash
-cd nerfServer_VPP
+cd nerfServer
 python manage.py runserver 0.0.0.0:6000
 ```
 
 3. Open another terminal and start planner service:
 
 ```bash
-cd planServre_VPP
+cd planServre_Object / planServre_Room 
 python manage.py runserver 0.0.0.0:6100
 ```
 
