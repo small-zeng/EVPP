@@ -75,7 +75,7 @@ https://10.15.198.53:6100/isfinish/?finish=yes
 
 百度云盘 https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i
 
-Download the data mentioned above and place it in the directory 
+Download the data above, unzip it, and place it in the directory: 
 ```bash
 ./nerfServer_VPP/logs
 ```
