@@ -80,9 +80,6 @@ Download the data above, unzip it, and place it in the directory:
 ./nerfServer_VPP/logs
 ```
 
-
-
-
 ## Performance
 
 Effectiveness and Efficiency metrics:
@@ -97,13 +94,15 @@ The final result of the process of online reconstruction quality over time is:
 
 ![teaser](./imgs/psnr.png)
 
+For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.
+
+
 Effectiveness and Efficiency metrics:
 
 ![teaser](./imgs/metric.jpg)
 
-We obtain the pose using the Unity engine, and the pose can also be estimated by [Droid-SLAM](https://github.com/princeton-vl/DROID-SLAM), with the following metrics:
+For the cabin scene (5m X 5m), the planning time is 388 seconds.
 
-![teaser](./imgs/droid-slam.jpg)
 
 
 
