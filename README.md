@@ -10,7 +10,7 @@
 
 **Accepted by RA-L 2023 (NeurAR).**
 
-Project Page: https://small-zeng.github.io/EVPP/
+Project Page: [EVPP](https://small-zeng.github.io/EVPP/)
 
 Paper Link: https://ieeexplore.ieee.org/abstract/document/10160793
 
