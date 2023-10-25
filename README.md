@@ -73,8 +73,12 @@ https://10.15.198.53:6100/isfinish/?finish=yes
 ## Performance
 
 Reconstruction and Efficacy Metrics:
+
 ![teaser](./imgs/metric.jpg)
 
+We obtain the pose using the Unity engine, and the pose can also be estimated by [Droid-SLAM](https://github.com/princeton-vl/DROID-SLAM), with the following metrics:
+
+![teaser](./imgs/droid-slam.jpg)
 
 
 
