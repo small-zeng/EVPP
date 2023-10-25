@@ -1,14 +1,16 @@
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
+Accepted by ICRA 2023.
+
 ![teaser](./imgs/teaser_EVPP.jpg)
 
 # NeurAR: Neural Uncertainty for Autonomous 3D Reconstruction With Implicit Neural Representations
 
 ![teaser](./imgs/teaser_NeurAR.jpg)
 
-The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction]().
+Accepted by RA-L 2023.
 
-Accepted by ICRA 2023.
+The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction]().
 
 Project Page: https://small-zeng.github.io/EVPP/
 
