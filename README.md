@@ -17,7 +17,7 @@ Paper Link: [EVPP](https://ieeexplore.ieee.org/abstract/document/10160793)  [Neu
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
 ## Unity Project
-百度云盘 [childroom scene](https://pan.baidu.com/s/1xYufnQPoG-7rhjHrn7t-0w?pwd=hnmg)
+百度云盘: [cabin scene](https://pan.baidu.com/s/1sF5UQMK6hl3DUB_OpIQuAA?pwd=xm5e)  [childroom scene](https://pan.baidu.com/s/1xYufnQPoG-7rhjHrn7t-0w?pwd=hnmg)
 
 ## Installation
 
@@ -73,7 +73,7 @@ http://10.15.198.53:6100/isfinish/?finish=yes
 
 ## Test Data
 
-百度云盘 [cabin scene](https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i)
+百度云盘: [cabin scene](https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i)
 
 Download the data above, unzip it, and place it in the directory: 
 ```bash
