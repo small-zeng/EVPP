@@ -1,5 +1,7 @@
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
+![teaser](./imgs/teaser.jpg)
+
 The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction]().
 
 Accepted by ICRA 2023.
