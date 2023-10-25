@@ -70,6 +70,13 @@ https://10.15.198.53:6100/isfinish/?finish=yes
 ```
 
 
+## Performance
+
+![teaser](./imgs/metric.jpg)
+
+
+
+
 ## BibTeX
 
 ```bibtex
