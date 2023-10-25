@@ -1,6 +1,6 @@
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
-Accepted by ICRA 2023.
+Accepted by ICRA 2023 (EVPP).
 
 ![teaser](./imgs/teaser_EVPP.jpg)
 
@@ -8,9 +8,7 @@ Accepted by ICRA 2023.
 
 ![teaser](./imgs/teaser_NeurAR.jpg)
 
-Accepted by RA-L 2023.
-
-The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction]().
+Accepted by RA-L 2023 (NeurAR).
 
 Project Page: https://small-zeng.github.io/EVPP/
 
