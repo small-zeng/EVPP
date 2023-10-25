@@ -106,6 +106,17 @@ We obtain the pose using the Unity engine, and the pose can also be estimated by
   year={2023},
   organization={IEEE}
 }
+
+@article{ran2023neurar,
+  title={NeurAR: Neural Uncertainty for Autonomous 3D Reconstruction With Implicit Neural Representations},
+  author={Ran, Yunlong and Zeng, Jing and He, Shibo and Chen, Jiming and Li, Lincheng and Chen, Yingfeng and Lee, Gimhee and Ye, Qi},
+  journal={IEEE Robotics and Automation Letters},
+  volume={8},
+  number={2},
+  pages={1125--1132},
+  year={2023},
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgement
