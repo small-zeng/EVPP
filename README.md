@@ -72,6 +72,7 @@ https://10.15.198.53:6100/isfinish/?finish=yes
 
 ## Performance
 
+Reconstruction and Efficacy Metrics:
 ![teaser](./imgs/metric.jpg)
 
 
