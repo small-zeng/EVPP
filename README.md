@@ -39,7 +39,7 @@ The main entrances are `nerfServer`  and `planServre_Object / planServre_Room` .
 
 `nerfServer_VPP`  defines the online implicit reconstruction.
 
-`planServre_Object / planServre_Room` defines the view path planning.
+`planServre_Object / planServre_Room` defines the view path planning of single object scene and room scene.
 
 ## RUN
 
@@ -94,14 +94,14 @@ The final result of the process of online reconstruction quality over time is:
 
 ![teaser](./imgs/psnr.png)
 
-For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.
+**For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.**
 
 
 Effectiveness and Efficiency metrics:
 
 ![teaser](./imgs/metric.jpg)
 
-For the cabin scene (5m X 5m), the planning time is 388 seconds.
+**For the cabin scene (5m X 5m), the planning time is 388 seconds.**
 
 
 
