@@ -1,8 +1,10 @@
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
+![teaser](./imgs/teaser_EVPP.jpg)
+
 # NeurAR: Neural Uncertainty for Autonomous 3D Reconstruction With Implicit Neural Representations
 
-![teaser](./imgs/teaser.jpg)
+![teaser](./imgs/teaser_NeurAR.jpg)
 
 The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction]().
 
