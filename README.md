@@ -17,7 +17,7 @@ Paper Link: [EVPP](https://ieeexplore.ieee.org/abstract/document/10160793)  [Neu
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
 ## Unity Project
-百度云盘 https://pan.baidu.com/s/12lXVDL-f1cGk8O9LpVAzXA?pwd=j5ey
+百度云盘 [Childroom scene](https://pan.baidu.com/s/1xYufnQPoG-7rhjHrn7t-0w?pwd=hnmg)
 
 ## Installation
 
