@@ -95,7 +95,7 @@ run metric.ipynb
 ```
 The final result of the process of online reconstruction quality over time is:
 
-![teaser](./imgs/pnsr.png)
+![teaser](./imgs/psnr.png)
 
 Effectiveness and Efficiency metrics:
 
