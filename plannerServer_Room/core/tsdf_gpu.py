@@ -39,7 +39,7 @@ N_samples = int((far - near)/voxel_res) + 1
 # frustums in the dataset
 # ======================================================================================================== #
 # print("Estimating voxel volume bounds...")
-base_dir = "../nerfServer_VPP/logs/unity_continue_depth_cabin_" + version + "/trainset"
+base_dir = "../nerfServer/logs/unity_continue_depth_cabin_" + version + "/trainset"
 # base_dir = "../tsdfServer/logs/unity_continue_depth_cabin_" + version + "/trainset"
 
 train_data_far = 6.0
