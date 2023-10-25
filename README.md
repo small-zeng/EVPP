@@ -71,6 +71,11 @@ python manage.py runserver 0.0.0.0:6100
 https://10.15.198.53:6100/isfinish/?finish=yes
 ```
 
+## Test Data
+百度云盘 https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i
+
+
+
 
 ## Performance
 
