@@ -85,7 +85,7 @@ Download the data above, unzip it, and place it in the directory:
 Effectiveness and Efficiency metrics:
 
 To obtain the process of online reconstruction quality over time (cabin scene for example), run the command:
-Download the data above, unzip it, and place it in the directory: 
+ 
 ```bash
 cd Postprocesser
 run metric.ipynb
