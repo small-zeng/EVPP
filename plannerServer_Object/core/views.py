@@ -115,7 +115,7 @@ def info_planner():
     # self.NBV_step = self.NBV_step + 1
     # self.save_model()
     # self.uncertainty_kargs = self.copy_model(2)
-    response = requests.get("http://localhost:7000/isfinish", "finish=yes")
+    response = requests.get("http://localhost:6000/isfinish", "finish=yes")
     print("send info to planner")
 
 

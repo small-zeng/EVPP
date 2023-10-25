@@ -15,6 +15,9 @@ from scipy.spatial import ConvexHull
 import copy
 import core.fusion as fusion
 
+if not os.path.exists("saved_model"):
+    os.mkdir("saved_model")
+    
 # ## IdahoStateCapitol
 # version = 'v30_7'
 # vol_bnds = np.array([[-6,6],[-0.1,4.0],[-6,6]])        ## 采样包围盒
@@ -23,20 +26,12 @@ import core.fusion as fusion
 # print("tsdf uncertainty包围盒: \n",aabb_bnds)
 
 ## cabin
-version = 'v23_22'
+version = 'v23_132'
 vol_bnds = np.array([[-5,5],[0.01,5.0],[-5,6]])        ## 采样包围盒
 aabb_bnds = np.array([[-1.0,1.0],[0.02,2.5],[-1.5,2.0]])   ## tsdf uncertainty包围盒
 aoi_bnds = np.array([[-2.5,2.5],[0.1,3.5],[-2.5,3.0]]) 
 print("采样包围盒；\n",vol_bnds)
 print("tsdf uncertainty包围盒: \n",aabb_bnds)
-
-# ## drums
-# version = 'v51_1'
-# vol_bnds = np.array([[-5,5],[0.01,5.0],[-5,6]])        ## 采样包围盒
-# aabb_bnds = np.array([[-2.0,2.0],[0.02,2.5],[-1.0,1.0]])   ## tsdf uncertainty包围盒
-# aoi_bnds = np.array([[-2.5,2.5],[0.1,3.5],[-2.5,3.0]]) 
-# print("采样包围盒；\n",vol_bnds)
-# print("tsdf uncertainty包围盒: \n",aabb_bnds)
 
 
 device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
@@ -51,7 +46,7 @@ N_samples = int((far - near)/voxel_res) + 1
 # frustums in the dataset
 # ======================================================================================================== #
 # print("Estimating voxel volume bounds...")
-base_dir = "../nerfServer_VPP/logs/unity_continue_depth_cabin_" + version + "/trainset"
+base_dir = "../nerfServer/logs/unity_continue_depth_cabin_" + version + "/trainset"
 # base_dir = "../tsdfServer/logs/unity_continue_depth_cabin_" + version + "/trainset"
 
 train_data_far = 6.0
@@ -734,7 +729,7 @@ class TSDF:
         # Get mesh from voxel volume and save to disk (can be viewed with Meshlab)
         print("Saving mesh to mesh.ply...")
         verts, faces, norms, colors, Nrays, verts_ind, nray_vol, state_vol = self.tsdf_vol.get_mesh()
-        fusion.meshwrite("../saved_model/nerf_vpp_"+ version +".ply", verts, faces, norms, colors)
+        fusion.meshwrite("./saved_model/nerf_vpp_"+ version +".ply", verts, faces, norms, colors)
         
         # send_SamplePoints(verts.tolist())
         
