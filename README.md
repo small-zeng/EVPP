@@ -10,11 +10,9 @@
 
 **Accepted by RA-L 2023 (NeurAR).**
 
-Project Page: [EVPP](https://small-zeng.github.io/EVPP/)
+Project Page: [EVPP](https://small-zeng.github.io/EVPP/)  [NeurAR](https://kingteeloki-ran.github.io/NeurAR/) 
 
-Paper Link: https://ieeexplore.ieee.org/abstract/document/10160793
-
-GitHub Repo: https://github.com/small-zeng/EVPP
+Paper Link: [EVPP](https://ieeexplore.ieee.org/abstract/document/10160793)  [NeurAR](https://ieeexplore.ieee.org/abstract/document/10012495/) 
 
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
