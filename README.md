@@ -20,7 +20,7 @@ This code is official implementation of the paper [Efficient View Path Planning 
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
 
-## Unity Project
+## Unity Project in Windows
 
 Please refer to [Install Unity and Visual Studio on Windows](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure installed environment is not lower than this version.
 
@@ -33,7 +33,7 @@ git clone https://github.com/small-zeng/EVPP.git
 cd EVPP
 ```
 
-### Install with conda
+### Install with conda in Ubuntu
 
 ```bash
 conda env create -f environment.yml
