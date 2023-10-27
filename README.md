@@ -21,7 +21,7 @@ This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-
 
 
 ## Unity Project
-百度云盘: [cabin scene](https://pan.baidu.com/s/1sF5UQMK6hl3DUB_OpIQuAA?pwd=xm5e)  [childroom scene](https://pan.baidu.com/s/1xYufnQPoG-7rhjHrn7t-0w?pwd=hnmg)
+百度云盘: [cabin scene](https://pan.baidu.com/s/1c7toFyuyKOdV_ZKaJWS1LQ?pwd=g7jb)  [childroom scene](https://pan.baidu.com/s/1ke8hYxnlp7AMc-QCN29GIg?pwd=xsrz)
 
 ## Installation
 
@@ -77,11 +77,11 @@ http://10.15.198.53:6100/isfinish/?finish=yes
 
 ## Planner Result
 
-百度云盘: [cabin scene](https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i)
+百度云盘: [cabin scene](https://pan.baidu.com/s/1f0j3A9R2zcAZLVxM2lFdgw?pwd=x8j5)
 
 Download the data above, unzip it, and place it in the directory: 
 ```bash
-./nerfServer_VPP/logs
+./nerfServer/logs
 ```
 
 ## Performance
@@ -89,12 +89,18 @@ Download the data above, unzip it, and place it in the directory:
 ### Rendered result
 
 Download test data for rendering a circular view of the scene:
+
+百度网盘: [cabin_traj](https://pan.baidu.com/s/15dqTtJJOVuyCHVaIuP04bw?pwd=33p2)
+
 ```bash
 mkdir data
 unzip cabin_traj
 ```
 
 After 30 minutes of training, perform a complete rendering pass around the cabin scene:
+
+百度网盘: [cabin_traj_render](https://pan.baidu.com/s/1qxZmQSgYjNC_TKbrNST-uQ?pwd=vnea)
+
 ```bash
 cd nerfServer
 python renderall.py
@@ -102,21 +108,8 @@ python renderall.py
 
 <video src="./imgs/rgb_video.mp4"></video>
 
+**For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47**
 
-
-Effectiveness and Efficiency metrics:
-
-To obtain the process of online reconstruction quality over time (cabin scene for example), run the command:
- 
-```bash
-cd Postprocesser
-run metric.ipynb
-```
-The final result of the process of online reconstruction quality over time is:
-
-![teaser](./imgs/psnr.png)
-
-**For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.**
 
 
 Effectiveness and Efficiency metrics:
