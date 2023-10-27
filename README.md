@@ -22,7 +22,7 @@ This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-
 
 ## Unity Project
 
-Please refer to [Install Unity and Visual Studio](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure installed environment is not lower than this version.
+Please refer to [Install Unity and Visual Studio on Windows](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure installed environment is not lower than this version.
 
 百度云盘: [cabin scene](https://pan.baidu.com/s/1c7toFyuyKOdV_ZKaJWS1LQ?pwd=g7jb)  [childroom scene](https://pan.baidu.com/s/1ke8hYxnlp7AMc-QCN29GIg?pwd=xsrz)
 
@@ -67,12 +67,14 @@ python manage.py runserver 0.0.0.0:6000
 
 3. Open another terminal and start planner service:
 
+Make sure that the Windows and Ubuntu machines are on the same local network. Set the IP address for sending views in the planner to your Windows IP. [line](https://github.com/small-zeng/EVPP/blob/main/plannerServer_Object/core/interface2.py#L26)
+
 ```bash
 cd plannerServer_Object / plannerServer_Room 
 python manage.py runserver 0.0.0.0:6100
 ```
 
-4. In a web browser, start the planner by entering the link (10.15.198.53 is set according to IP of your host machine):
+4. In a web browser, start the planner by entering the link (10.15.198.53 is set according to IP of your Ubuntu machine):
 
 ```bash
 http://10.15.198.53:6100/isfinish/?finish=yes
@@ -93,7 +95,7 @@ Download the data above, unzip it, and place it in the directory:
 
 Download test data for rendering a circular view of the scene:
 
-百度网盘: [cabin_traj](https://pan.baidu.com/s/15dqTtJJOVuyCHVaIuP04bw?pwd=33p2)
+百度云盘: [cabin_traj](https://pan.baidu.com/s/15dqTtJJOVuyCHVaIuP04bw?pwd=33p2)
 
 ```bash
 mkdir data
@@ -102,7 +104,7 @@ unzip cabin_traj
 
 After 30 minutes of training, perform a complete rendering pass around the cabin scene:
 
-百度网盘: [cabin_traj_render](https://pan.baidu.com/s/1qxZmQSgYjNC_TKbrNST-uQ?pwd=vnea)
+百度云盘: [cabin_traj_render](https://pan.baidu.com/s/1qxZmQSgYjNC_TKbrNST-uQ?pwd=vnea)
 
 ```bash
 cd nerfServer
