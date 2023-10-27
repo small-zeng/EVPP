@@ -115,7 +115,7 @@ python renderall.py
 
 ### Efficiency metrics
 
-Planned result for cabin scene is in the path:
+Planned results for cabin scene are in the path:
 
 ```bash
 ./plannerServer_Object/core/results
