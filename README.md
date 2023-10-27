@@ -15,7 +15,7 @@ Project Page: [EVPP](https://small-zeng.github.io/EVPP/)  [NeurAR](https://kingt
 Paper Link: [EVPP](https://ieeexplore.ieee.org/abstract/document/10160793)  [NeurAR](https://ieeexplore.ieee.org/abstract/document/10012495/) 
 
 
-The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction](https://ieeexplore.ieee.org/abstract/document/10160793), the first interactive pixel-level NeRF editing tool.
+The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction](https://ieeexplore.ieee.org/abstract/document/10160793).
 
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
 
