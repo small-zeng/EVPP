@@ -14,7 +14,11 @@ Project Page: [EVPP](https://small-zeng.github.io/EVPP/)  [NeurAR](https://kingt
 
 Paper Link: [EVPP](https://ieeexplore.ieee.org/abstract/document/10160793)  [NeurAR](https://ieeexplore.ieee.org/abstract/document/10012495/) 
 
+
+The official implementation of the paper [Efficient View Path Planning for Autonomous Implicit Reconstruction](https://ieeexplore.ieee.org/abstract/document/10160793), the first interactive pixel-level NeRF editing tool.
+
 This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-ngp)'s NGP and TensoRF implementation.
+
 
 ## Unity Project
 百度云盘: [cabin scene](https://pan.baidu.com/s/1sF5UQMK6hl3DUB_OpIQuAA?pwd=xm5e)  [childroom scene](https://pan.baidu.com/s/1xYufnQPoG-7rhjHrn7t-0w?pwd=hnmg)
