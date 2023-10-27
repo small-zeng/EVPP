@@ -113,11 +113,9 @@ python renderall.py
 
 **For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47.**
 
-
-
 ### Efficiency metrics
 
-Planned result for cabin scene is in thr path 
+Planned result for cabin scene is in the path:
 
 ```bash
 ./plannerServer_Object/core/results
