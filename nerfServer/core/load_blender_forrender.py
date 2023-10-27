@@ -302,7 +302,7 @@ def load_blender_data_testdata(basedir, half_res=False, testskip=1):
         skip = 1
     else:
         skip = testskip
-    for i in range(0,199,skip):
+    for i in range(0,120,skip):
         depth_frame = os.path.join(basedir, str(i)+ 'depth.png')
         mian_fname = os.path.join(basedir, str(i)+ 'main.png')
         matrix_txt = os.path.join(basedir, str(i)+'.txt')
@@ -320,7 +320,8 @@ def load_blender_data_testdata(basedir, half_res=False, testskip=1):
             
         
     
-    i_split = [np.arange(0,199),np.arange(0, 74),np.arange(0,199)]
+    # i_split = [np.arange(0,199),np.arange(0, 74),np.arange(0,199)]
+    i_split = [np.arange(0,120),np.arange(0, 120),np.arange(0,120)]
     
     imgs = np.concatenate(all_imgs, 0)
     poses = np.concatenate(all_poses, 0)

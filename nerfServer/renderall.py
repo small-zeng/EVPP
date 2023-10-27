@@ -140,15 +140,17 @@ def rendertest():
     # expname = 'unity_uncertainty_depth_Alexander_v15_113'
 
     basedir = "logs/"
-    expname = 'unity_continue_depth_cabin_v23_21'
+    expname = 'unity_continue_depth_cabin_v23_12'
 
 
 
     # testdata = 'drums'
     # testdata = 'room_yello'
-    testdata = 'test'
+    # testdata = 'test'
     # testdata = 'Alexander_small'
     # testdata = 'Alexander'
+    
+    testdata = 'cabin_traj'
 
     gt = True
     num = 1000
@@ -156,7 +158,7 @@ def rendertest():
     video = False
     renderall = False
     only5 = False
-    length = 100
+    length = 120
 
     args.basedir = basedir
     args.expname = expname
@@ -278,7 +280,7 @@ def rendertest():
             
     else:
         # 38
-        for index in [100000]:
+        for index in [12000]:
             print("index = ",index)
             render_kwargs_train, render_kwargs_test, start, grad_vars, optimizer = create_nerf(args,index)
             render_kwargs_train.update(bds_dict)
@@ -292,8 +294,6 @@ def rendertest():
             else:
                 index = i_test
  
-            
-
             for i in range(len(index)+1):
                 
                 iter_index = index[i*length:(i+1)*length]

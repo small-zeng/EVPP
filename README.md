@@ -75,7 +75,7 @@ python manage.py runserver 0.0.0.0:6100
 http://10.15.198.53:6100/isfinish/?finish=yes
 ```
 
-## Test Data
+## Planner Result
 
 百度云盘: [cabin scene](https://pan.baidu.com/s/1MakTdwY98JAglV1IAbbxfQ?pwd=cw2i)
 
@@ -85,6 +85,24 @@ Download the data above, unzip it, and place it in the directory:
 ```
 
 ## Performance
+
+### Rendered result
+
+Download test data for rendering a circular view of the scene:
+```bash
+mkdir data
+unzip cabin_traj
+```
+
+After 30 minutes of training, perform a complete rendering pass around the cabin scene:
+```bash
+cd nerfServer
+python renderall.py
+```
+
+<video src="./imgs/rgb_video.mp4"></video>
+
+
 
 Effectiveness and Efficiency metrics:
 
