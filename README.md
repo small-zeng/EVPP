@@ -67,7 +67,7 @@ python manage.py runserver 0.0.0.0:6000
 
 3. Open another terminal and start planner service:
 
-Make sure that the Windows and Ubuntu machines are on the same local network. Set the IP address for sending views in the planner to your Windows IP. [line](https://github.com/small-zeng/EVPP/blob/main/plannerServer_Object/core/interface2.py#L26)
+Make sure that the Windows and Ubuntu machines are on the same local network. Set the IP address for sending views in the planner to your Windows IP. [plannerServer_Object](./plannerServer_Object/core/interface2.py#L26)  [plannerServer_Room](./plannerServer_Room/core/interface2.py#L26)
 
 ```bash
 cd plannerServer_Object / plannerServer_Room 
