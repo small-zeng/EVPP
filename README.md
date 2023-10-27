@@ -22,7 +22,7 @@ This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-
 
 ## Unity Project
 
-Please refer to [Install Unity and Visual Studio](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure the installed environment is not lower than this version.
+Please refer to [Install Unity and Visual Studio](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure installed environment is not lower than this version.
 
 百度云盘: [cabin scene](https://pan.baidu.com/s/1c7toFyuyKOdV_ZKaJWS1LQ?pwd=g7jb)  [childroom scene](https://pan.baidu.com/s/1ke8hYxnlp7AMc-QCN29GIg?pwd=xsrz)
 
@@ -78,7 +78,7 @@ python manage.py runserver 0.0.0.0:6100
 http://10.15.198.53:6100/isfinish/?finish=yes
 ```
 
-## Planner Result
+## Test Data
 
 百度云盘: [cabin scene](https://pan.baidu.com/s/1f0j3A9R2zcAZLVxM2lFdgw?pwd=x8j5)
 
@@ -111,11 +111,17 @@ python renderall.py
 
 <video src="./imgs/rgb_video.mp4"></video>
 
-**For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47**
+**For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47.**
 
 
 
 ### Efficiency metrics
+
+Planned result for cabin scene is in thr path 
+
+```bash
+./plannerServer_Object/core/results
+```
 
 ![teaser](./imgs/metric.jpg)
 
