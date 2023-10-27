@@ -86,7 +86,7 @@ Download the data above, unzip it, and place it in the directory:
 
 ## Performance
 
-### Rendered result
+### Effectiveness metrics:
 
 Download test data for rendering a circular view of the scene:
 
@@ -112,7 +112,7 @@ python renderall.py
 
 
 
-Effectiveness and Efficiency metrics:
+### Efficiency metrics:
 
 ![teaser](./imgs/metric.jpg)
 
