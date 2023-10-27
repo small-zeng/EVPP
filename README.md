@@ -55,7 +55,7 @@ Follow the steps below to start autonomous implicit reconstruction:
 1. Run Unity Project
 
 ```bash
-After install Unity Editor and Visual Studio, you can start it by click **RUN** button in Unity Editor.
+After install Unity Editor and Visual Studio, you can start it by click RUN button in Unity Editor.
 ```
 
 2. Open one terminal and start reconstruction service:
