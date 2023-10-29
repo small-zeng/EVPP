@@ -6,9 +6,10 @@
 
 # NeurAR: Neural Uncertainty for Autonomous 3D Reconstruction With Implicit Neural Representations
 
+**Accepted by RA-L 2023 (NeurAR).**
+
 ![teaser](./imgs/teaser_NeurAR.jpg)
 
-**Accepted by RA-L 2023 (NeurAR).**
 
 Project Page: [EVPP](https://small-zeng.github.io/EVPP/)  [NeurAR](https://kingteeloki-ran.github.io/NeurAR/) 
 
