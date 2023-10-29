@@ -110,8 +110,11 @@ After 30 minutes of training, perform a complete rendering pass around the cabin
 cd nerfServer
 python renderall.py
 ```
-
-<video src="./imgs/rgb_video.mp4"></video>
+<p align="center">
+  <a href="">
+    <img src="./imgs/rgb_video.gif" alt="Logo" width="80%">
+  </a >
+</p >
 
 **For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47.**
 
