@@ -114,7 +114,7 @@ python renderall.py
 
 <p align="center">
   <a href="">
-    <img src="./imgs/rgb_video.gif" alt="Logo" width="60%">
+    <img src="./imgs/rgb_video.gif"  width="60%">
   </a >
 </p >
 
