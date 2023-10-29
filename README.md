@@ -113,10 +113,10 @@ python renderall.py
 
 
 <p align="center">
-  <a href="">
-    <img src="./imgs/rgb_video.gif"  width="60%">
-  </a >
-</p >
+  <a href="" class="no-underline">
+    <img src="./imgs/rgb_video.gif" width="60%">
+  </a>
+</p>
 
 **For the cabin scene (5m X 5m), the PSNR achieved after 30 minutes of reconstruction is 26.47.**
 
