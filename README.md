@@ -25,7 +25,7 @@ This project is built on [ashawkey/torch-ngp](https://github.com/ashawkey/torch-
 
 Please refer to [Install Unity and Visual Studio on Windows](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows). Our environment includes Unity 2019.4.40 and Visual Studio 2019. Please make sure installed environment is not lower than this version.
 
-百度云盘: [cabin scene](https://pan.baidu.com/s/1c7toFyuyKOdV_ZKaJWS1LQ?pwd=g7jb)  [childroom scene](https://pan.baidu.com/s/1ke8hYxnlp7AMc-QCN29GIg?pwd=xsrz)
+
 
 ## Installation
 
