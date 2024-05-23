@@ -1,6 +1,6 @@
 __News:__
 
-- May 24, 2024: the paper for **Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration** is released!
+- May 24, 2024: the paper for **Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration** is released! check [this link](https://small-zeng.github.io/AIISRFE/).
 
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
