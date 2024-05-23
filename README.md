@@ -1,3 +1,7 @@
+__News:__
+
+- May 24, 2024: the paper for **Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration** is released!
+
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
 **Accepted by ICRA 2023 (EVPP).**
