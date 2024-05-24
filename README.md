@@ -1,6 +1,6 @@
 __News:__
 
-- May 24, 2024: the paper and video for **[Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration (ICRA 2024)](https://arxiv.org/abs/2404.10218)** are released! It supports autonomous implicit reconstruction of larger indoor scenes and is more efficient. The code is coming soon. check [this link](https://small-zeng.github.io/AIISRFE/).
+- May 24, 2024: the paper and video for **[Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration (ICRA 2024)](https://arxiv.org/abs/2404.10218)** are released! It supports autonomous implicit reconstruction of larger indoor scenes and is more efficient. The code is released. check [this link](https://small-zeng.github.io/AIISRFE/).
 
 # Efficient View Path Planning for Autonomous Implicit Reconstruction
 
