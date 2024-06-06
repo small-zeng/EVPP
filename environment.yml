@@ -120,7 +120,6 @@ dependencies:
     - argon2-cffi-bindings==21.2.0
     - argparse==1.4.0
     - asgiref==3.5.2
-    - ash==0.0.1
     - async-timeout==4.0.2
     - asynctest==0.13.0
     - attrs==21.4.0
@@ -141,7 +140,6 @@ dependencies:
     - deprecation==2.1.0
     - django==3.2.16
     - docutils==0.19
-    - droid-backends==0.0.0
     - empy==3.3.4
     - entrypoints==0.4
     - evo==1.16.0
